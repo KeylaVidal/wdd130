@@ -46,20 +46,24 @@
             <input type="email" id="email" name="email" placeholder="Digite aqui" required>
             
             <fieldset>
-                <legend>Propósito da Mensagem:</legend>
-                <label><input type="radio" name="proposito" value="duvida" required> Consulta Geral</label>
-                <label><input type="radio" name="proposito" value="reserva"> Pergunta sobre Reserva</label>
-                <label><input type="radio" name="proposito" value="sugestao"> Sugestão de Site</label>
+              <legend>Propósito da Mensagem:</legend>
+              <input type="radio" id="duvida" name="proposito" value="duvida" required>
+              <label for="duvida">Consulta</label>
+
+              <input type="radio" id="reserva" name="proposito" value="reserva">
+              <label for="reserva">Reserva</label>
+
+              <input type="radio" id="sugestao" name="proposito" value="sugestao">
+              <label for="sugestao">Sugestão</label>
             </fieldset>
             
             <label for="mensagem">Mensagem:</label>
             <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite aqui" required></textarea>
             
-            <label class="checkbox">
-                <input type="checkbox" name="newsletter"> Quero receber a newsletter mensal
-            </label>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter" class="checkbox">Quero receber a newsletter mensal</label>
             
-            <button type="submit">Entrar em Contato!</button>
+            <input type="submit" value="Entrar em Contato!">
         </form>
 
         <h2>Estamos Aqui para Servi-lo</h2>
@@ -80,12 +84,12 @@
     </main>
 
     <footer>
-      <p>© 2026 Rafting Adventures | Keyla Vidal</p>
-       <nav class="redes-sociais">
-         <a href="https://facebook.com"><img src="imagens/facebook.jpg" alt="Facebook"></a>
-         <a href="https://instagram.com"><img src="imagens/instagram.jpg" alt="Instagram"></a>
-        <a href="https://linkedin.com"><img src="imagens/linkedin.jpg" alt="LinkedIn"></a>
-       </nav>
-   </footer>
+       <p>© 2026 Rafting Adventures | Keyla Vidal</p>
+          <nav class="redes-sociais">
+            <a href="https://facebook.com"><img src="imagens/facebook.jpg" alt="Facebook"></a>
+            <a href="https://instagram.com"><img src="imagens/instagram.jpg" alt="Instagram"></a>
+            <a href="https://linkedin.com"><img src="imagens/linkedin.jpg" alt="LinkedIn"></a>
+          </nav>
+    </footer>
 </body>
 </html>
