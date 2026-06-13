@@ -30,7 +30,7 @@ header {
 }
 
 header img {
-  width: 120px;
+  width: 80px;
   height: auto;
 }
 
@@ -226,3 +226,88 @@ button[type="submit"]:hover {
     border-radius: 50%;
     object-fit: cover;
 } 
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px 40px;
+    font-size: 2.5rem;
+}
+
+.newsletter {
+    background-color: var(--accent2-color);
+    padding: 30px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 50px 0;
+}
+
+.grid img {
+    width: 100%;
+}
+
+.botao {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: var(--accent1-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+.passeio img {
+  width: 100% !important;
+  max-width: 500px !important;
+  height: 300px !important;
+  object-fit: cover !important;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+}
+
+header img {
+  width: 80px !important;
+  height: auto !important;
+}
